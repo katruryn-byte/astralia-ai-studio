@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#FFF8D2"/>
+      <stop offset=".34" stop-color="#F4D078"/>
+      <stop offset="1" stop-color="#B87822"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="90" y1="70" x2="420" y2="445" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7DEA0"/>
+      <stop offset=".5" stop-color="#D5A84E"/>
+      <stop offset="1" stop-color="#8E5819"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="202" stroke="url(#gold)" stroke-width="5"/>
+  <circle cx="256" cy="256" r="178" stroke="url(#gold)" stroke-width="2" opacity=".75"/>
+  <circle cx="256" cy="256" r="112" stroke="url(#gold)" stroke-width="2" opacity=".5"/>
+  <g stroke="url(#gold)" stroke-linecap="round">
+    <path d="M256 48v62M256 402v62M48 256h62M402 256h62" stroke-width="5"/>
+    <path d="M109 109l44 44M359 359l44 44M403 109l-44 44M153 359l-44 44" stroke-width="3"/>
+    <path d="M152 76l31 54M329 382l31 54M76 152l54 31M382 329l54 31M360 76l-31 54M183 382l-31 54M436 152l-54 31M130 329l-54 31" stroke-width="2" opacity=".9"/>
+  </g>
+  <g fill="url(#gold)">
+    <circle cx="256" cy="54" r="8"/><circle cx="357" cy="81" r="6"/><circle cx="431" cy="155" r="7"/>
+    <circle cx="458" cy="256" r="8"/><circle cx="431" cy="357" r="6"/><circle cx="357" cy="431" r="7"/>
+    <circle cx="256" cy="458" r="8"/><circle cx="155" cy="431" r="6"/><circle cx="81" cy="357" r="7"/>
+    <circle cx="54" cy="256" r="8"/><circle cx="81" cy="155" r="6"/><circle cx="155" cy="81" r="7"/>
+  </g>
+  <g transform="translate(256 256)" fill="url(#sun)">
+    <circle r="28"/>
+    <path d="M0-96 9-42 0-31-9-42ZM0 96 9 42 0 31-9 42ZM-96 0-42 9-31 0-42-9ZM96 0 42 9 31 0 42-9Z"/>
+    <path d="m-68-68 42 30 3 15-15-3Zm136 136-42-30-3-15 15 3ZM68-68 38-26l-15 3 3-15ZM-68 68l30-42 15-3-3 15Z" opacity=".88"/>
+  </g>
+</svg>
