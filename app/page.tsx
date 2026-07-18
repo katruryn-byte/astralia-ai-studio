@@ -164,6 +164,10 @@ export default function Home() {
               {busy ? "Criando vídeo…" : "Gerar Reel · TikTok · Short"}
             </button>
 
+            <a className="cover-download" href="/api/campaign/cover" download>
+              Baixar capa pronta da campanha
+            </a>
+
             <div className="statusbox" aria-live="polite">
               <span className={busy ? "spinner" : "star"}>✦</span>
               <p>{status}</p>
