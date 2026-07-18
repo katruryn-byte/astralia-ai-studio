@@ -76,6 +76,8 @@ button, .download {
 }
 button:hover, .download:hover { filter: brightness(1.07); transform: translateY(-1px); }
 button:disabled { opacity: .58; cursor: wait; transform: none; }
+.cover-download { color: var(--gold-soft); text-align:center; text-decoration:none; font-size:12px; letter-spacing:.08em; }
+.cover-download:hover { color:#fff1c8; }
 .status { margin-bottom: 0; font-size: 13px; }
 
 .workspace { display: grid; grid-template-columns: minmax(260px, .72fr) minmax(0, 1.45fr); gap: 24px; }
